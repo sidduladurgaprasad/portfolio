@@ -1,0 +1,46 @@
+.background{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 85vw;
+}
+
+.titles{
+    padding: 2%;
+}
+.eachCourseCertifiate{
+    border: 2px solid grey ;
+    margin: 2%;
+    padding: 2%;
+}
+
+
+.eachMeritCertificate{
+
+    border: 2px solid ;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+@media all and (min-width :996px) {
+
+    .eachMeritCertificate:hover{
+        background-color: white;
+        color: black;
+        font-size: 150%;
+    }
+
+    .eachCourseCertifiate:hover{
+        background-color: black;
+        color: white;
+        font-size: 150%;
+    }
+    
+}
+
+.certificateTop{
+    height: 12vh;
+    width: 85vw;
+    background-color: transparent;
+}

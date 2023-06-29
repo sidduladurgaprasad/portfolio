@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://img.freepik.com/free-photo/blue-concrete-wall-texture-background_53876-145494.jpg?size=626&ext=jpg&ga=GA1.1.1593658006.1677691242&semt=ais");
+  background-repeat: "no-repeat";
+  background-size: "contain";
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

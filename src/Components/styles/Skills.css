@@ -1,0 +1,46 @@
+.SkillsBackground{
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 85vw;
+}
+
+.titles{
+    padding: 2%;
+}
+.eachlanguage{
+    border: 2px solid ;
+    border-radius: 15%;
+    padding: 1%;
+    margin: 2%;
+}
+
+
+.eachtechnology{
+    border: 2px solid ;
+    border-radius: 15%;
+    padding: 1%;
+    margin: 2%;
+}
+
+
+@media all and (min-width :996px){
+    
+    .eachtechnology:hover{
+        background-color: white;
+        color: black;
+        font-size: 150%;
+    }
+
+    .eachlanguage:hover{
+        background-color: black;
+        color: white;
+        font-size: 150%;
+    }
+}
+
+.skillTop{
+    height: 12vh;
+    width: 85vw;
+    background-color: transparent;
+}

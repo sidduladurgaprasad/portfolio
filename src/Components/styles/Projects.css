@@ -1,0 +1,41 @@
+.ProjectsBackground{
+    margin: 4%;
+    background:rgb(170, 220, 235);
+    width: 90vw;
+}
+
+@media all and (max-width: 766px){
+    .oddProjectDesc{
+        border-top: 1px solid;
+    }
+    .evenProjectDesc{
+        border-top: 1px solid;
+    }
+    .oddProjectDesc p{
+        font-size: 3.3vw;
+        margin-bottom: 0;
+    }
+    .evenProjectDesc p{
+        font-size: 3.3vw;
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width: 766px){
+    .oddProjectDesc{
+        border-left: 1px solid;
+    }
+    .evenProjectDesc{
+        border-right: 1px solid;
+    }
+    .oddProjectDesc p{
+        font-size: 115%;
+        margin-bottom: 0;
+    }
+    .evenProjectDesc p{
+        font-size: 115%;
+        margin-bottom: 0;
+    }
+}
+
+
