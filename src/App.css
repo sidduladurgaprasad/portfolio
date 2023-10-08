@@ -294,11 +294,15 @@
 {
   .contactDetails li:hover
   {
-    border: 1px solid;
+    transform: scale(107%);
   }
 }
 
 .contactDetails li:hover p{
   opacity: 1;
   background-color: grey;
+}
+
+.active{
+  color: blue;
 }

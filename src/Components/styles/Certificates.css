@@ -1,46 +1,71 @@
-.background{
+.background {
     margin-left: 6%;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 85vw;
-}
-
-.titles{
+  }
+  
+  .titles {
     padding: 2%;
-}
-.eachCourseCertifiate{
-    border: 2px solid grey ;
+  }
+  
+  .eachCourseCertifiate {
+    border: 2px solid grey;
     margin: 2%;
     padding: 2%;
-}
-
-
-.eachMeritCertificate{
-
-    border: 2px solid ;
+  }
+  
+  .eachMeritCertificate {
+    border: 2px solid;
     padding: 2%;
     margin: 2%;
-}
-
-
-@media all and (min-width :996px) {
-
-    .eachMeritCertificate:hover{
-        background-color: white;
-        color: black;
-        font-size: 150%;
-    }
-
-    .eachCourseCertifiate:hover{
-        background-color: black;
-        color: white;
-        font-size: 150%;
-    }
-    
-}
-
-.certificateTop{
-    height: 12vh;
-    width: 85vw;
+  }
+  
+  .expanded {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto; /* Add this line to enable scrolling if the image is larger than the viewport */
+  }
+  
+  .expanded img {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto; /* Add this line to center the image vertically and horizontally */
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
     background-color: transparent;
-}
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .arrows {
+    margin-top: 10px;
+    display: flex; /* Add this line to create a horizontal layout for the arrows */
+    justify-content: space-between; /* Add this line to distribute the arrows evenly */
+    width: 100%; /* Add this line to make the arrows take the full width of the container */
+    padding: 0 20px; /* Add this line to provide some spacing around the arrows */
+  }
+  
+  .arrowButton {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  

@@ -1,7 +1,7 @@
 import './styles/Skills.css';
 import c from './images/Skills Icons/C.png'
 import cpp from './images/Skills Icons/c++.jpg'
-import python from './images/Skills Icons/pyhton.jpg'
+import python from './images/Skills Icons/python.jpg'
 import java from './images/Skills Icons/java.jpg'
 
 import html from './images/Skills Icons/html.svg'
